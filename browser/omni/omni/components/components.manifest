@@ -1,0 +1,8 @@
+category app-startup nsBrowserGlue @mozilla.org/browser/browserglue;1 application={ec8030f7-c20a-464f-9b0e-13a3a9e97384} application={aa3c5121-dab2-40e2-81ca-7ea25febc110}
+category l10n-registry 5-browser resource://app/localization/{locale}/ backgroundtask=0
+category l10n-registry 5-browser resource://app/localization/{locale}/ backgroundtask=1
+category webextension-modules browser chrome://browser/content/ext-browser.json
+category webextension-scripts c-browser chrome://browser/content/parent/ext-browser.js
+category webextension-scripts-content browser chrome://browser/content/child/ext-browser-content-only.js
+category webextension-scripts-devtools browser chrome://browser/content/child/ext-browser.js
+category webextension-scripts-addon browser chrome://browser/content/child/ext-browser.js

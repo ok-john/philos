@@ -1,0 +1,101 @@
+{
+  "data": [
+    {
+      "schema": 1674146204409,
+      "taggedCodes": [
+      ],
+      "telemetryId": "duckduckgo",
+      "organicCodes": [],
+      "codeParamName": "t",
+      "queryParamName": "q",
+      "searchPageRegexp": "",
+      "expectedOrganicCodes": [
+      ],
+      "extraAdServersRegexps": [
+      ],
+      "id": "",
+      "last_modified": 0
+    },
+    {
+      "schema": 0,
+      "taggedCodes": [
+      ],
+      "telemetryId": "",
+      "organicCodes": [],
+      "codeParamName": "client",
+      "queryParamName": "q",
+      "searchPageRegexp": "",
+      "adServerAttributes": [
+      ],
+      "followOnParamNames": [
+      ],
+      "extraAdServersRegexps": [
+        ""
+      ],
+      "id": "",
+      "last_modified": 0
+    },
+    {
+      "schema": 0,
+      "taggedCodes": [
+      ],
+      "telemetryId": "ecosia",
+      "organicCodes": [],
+      "codeParamName": "tt",
+      "queryParamName": "q",
+      "searchPageRegexp": "^https://www\\.ecosia\\.org/",
+      "filter_expression": "env.version|versionCompare(\"110.0a1\")>=0",
+      "expectedOrganicCodes": [],
+      "extraAdServersRegexps": [
+        "^https://www\\.bing\\.com/acli?c?k"
+      ],
+      "id": "",
+      "last_modified": 1671565418576
+    },
+    {
+      "schema": 1671122205131,
+      "taggedCodes": [
+      ],
+      "telemetryId": "bing",
+      "organicCodes": [],
+      "codeParamName": "pc",
+      "queryParamName": "q",
+      "followOnCookies": [
+        {
+          "host": "www.bing.com",
+          "name": "SRCHS",
+          "codeParamName": "PC",
+          "extraCodePrefixes": [
+            "QBRE"
+          ],
+          "extraCodeParamName": "form"
+        }
+      ],
+      "searchPageRegexp": "^https://www\\.bing\\.com/search",
+      "extraAdServersRegexps": [
+        "^https://www\\.bing\\.com/acli?c?k"
+      ],
+      "id": "",
+      "last_modified": 1671479978088
+    },
+    {
+      "schema": 1643107838909,
+      "taggedCodes": [
+      ],
+      "telemetryId": "baidu",
+      "organicCodes": [],
+      "codeParamName": "tn",
+      "queryParamName": "wd",
+      "searchPageRegexp": "^https://www\\.baidu\\.com/(?:s|baidu)",
+      "followOnParamNames": [
+        "oq"
+      ],
+      "extraAdServersRegexps": [
+        "^https?://www\\.baidu\\.com/baidu\\.php?"
+      ],
+      "id": "",
+      "last_modified": 1643136933989
+    }
+  ],
+  "timestamp": 0
+}

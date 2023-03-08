@@ -1,0 +1,2 @@
+zip -0DXqr omni.ja omni    
+zip -0DXqr browser/omni.ja browser/omni    
